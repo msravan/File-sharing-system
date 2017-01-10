@@ -20,7 +20,7 @@ java -cp pa1.jar Server start
 To Start the Client-
 java -cp pa1.jar Client start
 
-**NOTE: I used fixed port number and host as sending port number to client is not possible before establishing connection. Host I used is “127.0.0.1” and Portnumber is “5211”
+**NOTE: I used fixed port number and host as sending port number to client is not possible before establishing connection. Host I used is “127.0.0.1” and Portnumber is “2323”
 
 To Upload a File to Server-
 java -cp pa1.jar Client upload <path_on_client/dir/file.txt> </path/filename/onserver/dir>
