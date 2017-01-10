@@ -15,33 +15,33 @@ In this FSS:
 Commands:
 
 To Start the Server-
-java -cp pa1.jar Server start
-
+java -cp FSS.jar Server start
+  
 To Start the Client-
-java -cp pa1.jar Client start
+java -cp FSS.jar Client start
 
 **NOTE: I used fixed port number and host as sending port number to client is not possible before establishing connection. Host I used is “127.0.0.1” and Portnumber is “2323”
 
 To Upload a File to Server-
-java -cp pa1.jar Client upload <path_on_client/dir/file.txt> </path/filename/onserver/dir>
+java -cp FSS.jar Client upload <path_on_client/dir/file.txt> </path/filename/onserver/dir>
 
 To Download a File from Server-
-java -cp pa1.jar Client download </path/existing_filename/on/server/file.txt> <path_on_client/dir>
+java -cp FSS.jar Client download </path/existing_filename/on/server/file.txt> <path_on_client/dir>
 
 To List Files and Directories of a particular Directory-
-java -cp pa1.jar Client dir </path/existing_directory/on/server>
+java -cp FSS.jar Client dir </path/existing_directory/on/server>
 
 To create a Directory on Server-
-java -cp pa1.jar Client mkdir </path/new_directory/on/server>
+java -cp FSS.jar Client mkdir </path/new_directory/on/server>
 
 To Remove a Directory from Server-
-java -cp pa1.jar Client rmdir </path/existing_directory/on/server>
+java -cp FSS.jar Client rmdir </path/existing_directory/on/server>
 
 To Remove a file from Server-
-java -cp pa1.jar Client rm </path/existing_filename/on/server>
+java -cp FSS.jar Client rm </path/existing_filename/on/server>
 
 To Close Server from Client module-
-java -cp pa1.jar Client shutdown
+java -cp FSS.jar Client shutdown
 
 ** I did this project on windows machine and I think it works on other machines. I tested the code and it is working perfectly. If by chance, any of the features doesn’t work, please let me know. Thank You.
 
